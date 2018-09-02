@@ -8,6 +8,15 @@
 
 import UIKit
 
+struct DefaultColorScheme: ColorSchemeInput {
+    var primary: UIColor = UIColor.red
+    var secondary: UIColor = UIColor.red
+    var text: UIColor = UIColor.red
+    var barText: UIColor = UIColor.red
+    var exerciseContentView: UIColor = UIColor.red
+    var headerBackground: UIColor = UIColor.red
+}
+
 protocol ColorSchemeInput {
     var primary: UIColor { get }
     var secondary: UIColor { get }
